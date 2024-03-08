@@ -1,0 +1,38 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.3)
+    diff-lcs (1.5.0)
+    exif (2.2.3)
+    fakefs (2.5.0)
+    method_source (1.0.0)
+    mini_exiftool (2.10.2)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
+    rspec-core (3.12.2)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.6)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-support (3.12.1)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  exif
+  fakefs
+  mini_exiftool
+  pry
+  rspec
+
+BUNDLED WITH
+   2.3.3
